@@ -1,0 +1,23 @@
+/**
+ * This is the default style for the boilerplate
+ * To remove this, delete the line that imports this file in `main.scss`
+ */
+
+.default-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  .default-paragraph {
+    max-width: 50%;
+  }
+}
+.logo{
+  background: url(../../../images/fm-logo.svg) no-repeat;
+  width: 100%;
+  height: 84px;
+}
+
+.dog-list{
+  margin-top: 20px;
+}
