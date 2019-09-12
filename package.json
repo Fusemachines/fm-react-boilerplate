@@ -1,0 +1,34 @@
+{
+  "name": "fm-react-boilerplate",
+  "version": "1.0.0",
+  "description": "boiler plate for react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fusemachines/fm-react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fusemachines/fm-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Fusemachines/fm-react-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
