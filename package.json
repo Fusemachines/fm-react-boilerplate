@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Fusemachines/fm-react-boilerplate.git"
   },
-  "author": "",
+  "author": "fusemachines",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Fusemachines/fm-react-boilerplate/issues"
