@@ -1,47 +1,34 @@
 {
-  "name": "fm-react-boilerplate",
-  "version": "1.0.0",
-  "description": "boiler plate for react project",
-  "main": "index.js",
-  "scripts": {
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 7b47fec641b201dd6de1272bbbbd1cf248c96e23
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Fusemachines/fm-react-boilerplate.git"
-  },
-<<<<<<< HEAD
-  "author": "fusemachines",
-=======
-  "author": "",
->>>>>>> 7b47fec641b201dd6de1272bbbbd1cf248c96e23
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Fusemachines/fm-react-boilerplate/issues"
-  },
-<<<<<<< HEAD
-  "homepage": "https://github.com/Fusemachines/fm-react-boilerplate#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
-    "validate-commit-msg": "^2.14.0"
-  },
-  "config": {
-    "ghooks": {
-      "commit-msg": "validate-commit-msg"
+    "name": "fm-react-boilerplate",
+    "version": "1.0.0",
+    "description": "boiler plate for react project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commit": "git-cz"
     },
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fusemachines/fm-react-boilerplate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Fusemachines/fm-react-boilerplate/issues"
+    },
+    "homepage": "https://github.com/Fusemachines/fm-react-boilerplate#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "commitizen": "^4.0.3",
+        "cz-conventional-changelog": "^3.0.2",
+        "validate-commit-msg": "^2.14.0"
+    },
+    "config": {
+        "ghooks": {
+            "commit-msg": "validate-commit-msg"
+        },
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
-  }
 }
-=======
-  "homepage": "https://github.com/Fusemachines/fm-react-boilerplate#readme"
-}
->>>>>>> 7b47fec641b201dd6de1272bbbbd1cf248c96e23
