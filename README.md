@@ -7,7 +7,7 @@
 
 ## Usage
 
-    `git clone https://github.com/Fusemachines/fm-react-boilerplate.git`q
+    `git clone https://github.com/Fusemachines/fm-react-boilerplate.git`
 
 ## Release
 `npm run release`
