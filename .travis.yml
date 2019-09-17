@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+notifications:
+  email: false
+node_js:
+  - '8'
+install: npm install
+before_script:
+  - npm prune
+script:
+  - cd typescript-with-redux
+  - npm run test
+branches:
+  only:
+    - master
