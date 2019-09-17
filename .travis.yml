@@ -4,13 +4,8 @@ notifications:
   email: false
 node_js:
   - '8'
-cache:
-  directories:
-    - "$HOME/.npm"
-before_install:
-  - cd ./typescript-with-redux
-  - npm install
-  - npm run test
+before_script: chmod +x build.sh
+script: build.sh
 branches:
   only:
     - master
