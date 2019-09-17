@@ -1,9 +1,17 @@
 {
   "groups": {
-    "default": {
+    "main": {
       "packages": [
-        "package.json",
-        "typescript-with-redux/package.json",
+        "package.json"
+      ]
+    },
+    "typescript-with-redux": {
+      "packages": [
+        "typescript-with-redux/package.json"
+      ]
+    },
+    "typescript": {
+      "packages": [
         "typescript/package.json"
       ]
     }
