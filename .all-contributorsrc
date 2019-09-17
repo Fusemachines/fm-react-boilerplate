@@ -1,0 +1,60 @@
+{
+  "projectName": "fm-react-boilerplate",
+  "projectOwner": "fusemachines",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "jfmengels",
+      "name": "Jeroen Engels",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3869412?v=4",
+      "profile": "https://github.com/jfmengels",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "saurssauravjs",
+      "name": "saurav maharjan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29722184?v=4",
+      "profile": "https://github.com/saurssauravjs",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "aniltks",
+      "name": "aniltks",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/50866509?v=4",
+      "profile": "https://github.com/aniltks",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fuse-sujan",
+      "name": "Sujan Shrestha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28521955?v=4",
+      "profile": "https://github.com/fuse-sujan",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Sanish-P",
+      "name": "Sanish Pradhananga",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19884461?v=4",
+      "profile": "https://github.com/Sanish-P",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
