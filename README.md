@@ -21,7 +21,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/saurssauravjs"><img src="https://avatars1.githubusercontent.com/u/29722184?v=4" width="100px;" alt="saurav maharjan"/><br /><sub><b>saurav maharjan</b></sub></a><br /><a href="https://github.com/fusemachines/fm-react-boilerplate/commits?author=saurssauravjs" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/aniltks"><img src="https://avatars3.githubusercontent.com/u/50866509?v=4" width="100px;" alt="aniltks"/><br /><sub><b>aniltks</b></sub></a><br /><a href="https://github.com/fusemachines/fm-react-boilerplate/commits?author=aniltks" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/fuse-sujan"><img src="https://avatars2.githubusercontent.com/u/28521955?v=4" width="100px;" alt="Sujan Shrestha"/><br /><sub><b>Sujan Shrestha</b></sub></a><br /><a href="https://github.com/fusemachines/fm-react-boilerplate/commits?author=fuse-sujan" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Sanish-P"><img src="https://avatars2.githubusercontent.com/u/19884461?v=4" width="100px;" alt="Sanish Pradhananga"/><br /><sub><b>Sanish Pradhananga</b></sub></a><br /><a href="https://github.com/fusemachines/fm-react-boilerplate/commits?author=Sanish-P" title="Documentation">📖</a></td>
