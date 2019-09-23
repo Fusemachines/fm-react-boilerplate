@@ -8,12 +8,12 @@ export const USERS: UserTypes[] = [
   },
   {
     id: 2,
-    name: 'John Smith',
-    address: 'New York, USA'
+    name: 'Mark Henry',
+    address: 'London, UK'
   },
   {
     id: 3,
-    name: 'John Smith',
-    address: 'New York, USA'
+    name: 'Sam Sal',
+    address: 'Paris, France'
   }
 ];

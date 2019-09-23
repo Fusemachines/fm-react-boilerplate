@@ -8,7 +8,7 @@ const Main: React.SFC<RouteComponentProps<{}>> = () => (
       <h1>
         <Link to="/user">React + Typescript</Link>
       </h1>
-      <span>This project is managed and update by Fusemachines Frontend Team</span>
+      <span>This project is managed and update by Fusemachines Frontend Team.</span>
     </div>
   </div>
 );

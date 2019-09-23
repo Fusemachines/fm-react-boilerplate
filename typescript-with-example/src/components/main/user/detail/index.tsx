@@ -1,6 +1,6 @@
 import React from 'react';
 import { RouteComponentProps } from 'react-router';
-import Profile from './commons';
+import Profile from './commons/Profile';
 import { USERS } from '../../../../constants/testUser';
 
 interface Params {
