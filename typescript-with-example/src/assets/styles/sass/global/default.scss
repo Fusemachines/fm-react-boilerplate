@@ -1,0 +1,42 @@
+/**
+ * This is the default style for the boilerplate
+ * To remove this, delete the line that imports this file in `main.scss`
+ */
+
+.default-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+
+  ul {
+    li {
+      text-align: center;
+      padding: 20px 0px;
+      a {
+        color: #3495eb;
+        font-size: 26px;
+        margin-left: 50px;
+        &:hover {
+          color: #f1f1f1;
+        }
+      }
+
+      .user-img {
+        position: absolute;
+      }
+    }
+  }
+
+  .default-paragraph {
+    text-align: center;
+    max-width: 50%;
+    color: #737373;
+
+    h1 {
+      a {
+        color: #3495eb;
+      }
+    }
+  }
+}

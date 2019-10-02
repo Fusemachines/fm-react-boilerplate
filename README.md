@@ -9,6 +9,7 @@
 ## Usage
 
     git clone https://github.com/Fusemachines/fm-react-boilerplate.git
+    git checkout develop
     cd fm-react-boilerplate
 
 
