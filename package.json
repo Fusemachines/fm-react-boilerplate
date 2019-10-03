@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "semantic-release": "semantic-release -d"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -41,5 +41,15 @@
   },
   "publishConfig": {
     "access": "restricted"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      ["@semantic-release/npm",{"npmPublish":false}],
+      "@semantic-release/changelog",
+      "@semantic-release/github"
+    ],
+    "branch": "master"
   }
 }
