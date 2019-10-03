@@ -1,3 +1,5 @@
+export const ADD_DOGS = 'ADD_DOGS';
+
 export interface DogBreed {
   id: number;
   name: string;
@@ -18,4 +20,3 @@ export interface AddDogAction {
  * export type DogActionTypes = AddDogAction | DeleteDogAction
  */
 export type DogActionTypes = AddDogAction;
-export const ADD_DOGS = 'ADD_DOGS';

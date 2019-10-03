@@ -4,10 +4,17 @@ notifications:
   email: false
 node_js:
   - '8'
-before_script: chmod +x build.sh
-script: ./build.sh
+before_script: 
+  - chmod +x build_typescript-with-example.sh
+  - chmod +x build_typescript-with-redux.sh
+  - chmod +x build_typescript.sh
+jobs:
+  include:
+    - script: ./build_typescript-with-example.sh
+    - script: ./build_typescript-with-redux.sh
+    - script: ./build_typescript.sh
 after_success:
-  - npm run semantic-release
+  - npm run semantic-release pre && semantic-release post
 branches:
   only:
     - master
