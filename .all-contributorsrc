@@ -11,24 +11,6 @@
   "commitConvention": "none",
   "contributors": [
     {
-      "login": "jfmengels",
-      "name": "Jeroen Engels",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/3869412?v=4",
-      "profile": "https://github.com/jfmengels",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "saurssauravjs",
-      "name": "saurav maharjan",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/29722184?v=4",
-      "profile": "https://github.com/saurssauravjs",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
       "login": "aniltks",
       "name": "aniltks",
       "avatar_url": "https://avatars3.githubusercontent.com/u/50866509?v=4",
@@ -53,6 +35,15 @@
       "profile": "https://github.com/Sanish-P",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "ishan-dongol",
+      "name": "Ishan Dongol",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/41279394?v=4",
+      "profile": "http://ishandongol.com.np",
+      "contributions": [
+        "code"
       ]
     }
   ],
