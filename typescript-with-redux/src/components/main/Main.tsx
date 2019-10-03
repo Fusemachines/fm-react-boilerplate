@@ -26,7 +26,7 @@ export class Main extends React.Component<MainProps> {
           </p>
 
           <button className={'default-btn'} onClick={this.props.fetchDogBreed}>
-            Click me, Click me!
+            Click me!
           </button>
 
           <div className="dog-list">
