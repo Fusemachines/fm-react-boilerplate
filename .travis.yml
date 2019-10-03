@@ -14,7 +14,7 @@ jobs:
     - script: ./build_typescript-with-redux.sh
     - script: ./build_typescript.sh
 after_success:
-  - npm run semantic-release -d
+  - npm run semantic-release
 branches:
   only:
     - master
