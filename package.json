@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "semantic-release": "semantic-release -d"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "@semantic-release/changelog": "^3.0.4",
     "all-contributors-cli": "^6.9.1",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
@@ -41,5 +42,20 @@
   },
   "publishConfig": {
     "access": "restricted"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/changelog",
+      "@semantic-release/github"
+    ],
+    "branch": "master"
   }
 }
