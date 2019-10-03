@@ -32,7 +32,12 @@ export class Main extends React.Component<MainProps> {
           <div className="dog-list">
             {this.props.dogs
               ? this.props.dogs.list.map(dog => {
-                  return <p key={dog.id}>{dog.name}</p>;
+                  return (
+                    <div className="dog-list-item" key={dog.id}>
+                      <span className="dog-list-item-title">{dog.name}</span>
+                      <span className="dog-list-item-desc">{dog.bred_for || '-'}</span>
+                    </div>
+                  );
                 })
               : null}
           </div>

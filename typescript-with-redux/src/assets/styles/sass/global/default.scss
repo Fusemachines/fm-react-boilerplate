@@ -39,4 +39,20 @@
 
 .dog-list {
   margin-top: 20px;
+  &-item {
+    * {
+      &:after {
+        content: '\a';
+        white-space: pre;
+      }
+    }
+    margin-bottom: 15px;
+    &-title {
+      font-weight: bold;
+      font-size: 12px;
+    }
+    &-desc {
+      font-size: 10px;
+    }
+  }
 }
