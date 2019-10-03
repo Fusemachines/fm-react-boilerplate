@@ -28,6 +28,10 @@
       &:active {
         box-shadow: none;
       }
+      &:disabled {
+        background-color: #3e90d3;
+        cursor: not-allowed;
+      }
     }
   }
 }

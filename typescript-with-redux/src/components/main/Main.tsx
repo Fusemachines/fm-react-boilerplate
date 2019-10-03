@@ -9,11 +9,32 @@ interface MainProps extends RouteComponentProps {
   fetchDogBreed: any;
   dogs: DogState;
 }
+interface MainStates {
+  isLoading: boolean;
+}
 /**
  * Describe a Component here.
  */
 export class Main extends React.Component<MainProps> {
+  state = {
+    isLoading: false
+  };
+  handleClick = (e: any) => {
+    e.preventDefault();
+    this.fetchData();
+  };
+  fetchData = async () => {
+    try {
+      this.setState({ isLoading: true });
+      await this.props.fetchDogBreed();
+    } catch (err) {
+      console.log(err);
+    } finally {
+      this.setState({ isLoading: false });
+    }
+  };
   render() {
+    const { isLoading } = this.state;
     return (
       <div className="default-wrapper">
         <div className="default-paragraph">
@@ -25,8 +46,8 @@ export class Main extends React.Component<MainProps> {
             Teams.
           </p>
 
-          <button className={'default-btn'} onClick={this.props.fetchDogBreed}>
-            Click me!
+          <button disabled={isLoading} className={'default-btn'} onClick={this.handleClick}>
+            {isLoading ? 'Loading...' : 'Click me, Click me!'}
           </button>
 
           <div className="dog-list">
