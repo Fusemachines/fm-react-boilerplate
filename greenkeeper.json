@@ -10,6 +10,11 @@
         "typescript-with-redux/package.json"
       ]
     },
+    "typescript-with-example": {
+      "packages": [
+        "typescript-with-example/package.json"
+      ]
+    },
     "typescript": {
       "packages": [
         "typescript/package.json"
