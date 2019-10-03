@@ -17,7 +17,9 @@ export class Main extends React.Component<MainProps> {
     return (
       <div className="default-wrapper">
         <div className="default-paragraph">
-          <div className="logo" style={{ width: "100%" }}></div>
+          <div className="logo" style={{ width: "100%" }}>
+            <h1>React + Typescript + Redux</h1>
+          </div>
           <p>This is a bolier plate for react with typescript and redux.
             Managed and update by Fusemachines Frontend Teams.</p>
 
