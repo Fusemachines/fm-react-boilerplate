@@ -17,19 +17,23 @@ export class Main extends React.Component<MainProps> {
     return (
       <div className="default-wrapper">
         <div className="default-paragraph">
-          <div className="logo" style={{ width: "100%" }}>
+          <div className="logo">
             <h1>React + Typescript + Redux</h1>
           </div>
-          <p>This is a bolier plate for react with typescript and redux.
-            Managed and update by Fusemachines Frontend Teams.</p>
+          <p className={'default-intro'}>
+            This is a bolier plate for react with typescript and redux. Managed and update by Fusemachines Frontend
+            Teams.
+          </p>
 
-          <button onClick={this.props.fetchDogBreed}>Click me, Click me!</button>
+          <button className={'default-btn'} onClick={this.props.fetchDogBreed}>
+            Click me, Click me!
+          </button>
 
           <div className="dog-list">
             {this.props.dogs
               ? this.props.dogs.list.map(dog => {
-                return <p key={dog.id}>{dog.name}</p>;
-              })
+                  return <p key={dog.id}>{dog.name}</p>;
+                })
               : null}
           </div>
         </div>
