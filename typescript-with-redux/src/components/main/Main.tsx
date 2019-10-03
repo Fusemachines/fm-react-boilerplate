@@ -47,7 +47,7 @@ export class Main extends React.Component<MainProps> {
           </p>
 
           <button disabled={isLoading} className={'default-btn'} onClick={this.handleClick}>
-            {isLoading ? 'Loading...' : 'Click me, Click me!'}
+            {isLoading ? 'Loading...' : 'Fetch Data!'}
           </button>
 
           <div className="dog-list">
